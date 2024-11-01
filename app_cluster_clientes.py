@@ -5,12 +5,12 @@ from sklearn.preprocessing import RobustScaler
 
 # Carregar os modelos de clusterização
 modelos = {
-    "KMeans1": joblib.load("modelos/kmeans1.joblib"),
-    "KMeans2": joblib.load("modelos/kmeans2.joblib"),
-    "DBSCAN1": joblib.load("modelos/dbscan1.joblib"),
-    "DBSCAN2": joblib.load("modelos/dbscan2.joblib"),
-    "Hierarchical1": joblib.load("modelos/hierarchical1.joblib"),
-    "Hierarchical2": joblib.load("modelos/hierarchical2.joblib")
+    "kmeans1": joblib.load("modelos/kmeans1.joblib"),
+    "kmeans2": joblib.load("modelos/kmeans2.joblib"),
+    "dbscan1": joblib.load("modelos/dbscan1.joblib"),
+    "dbscan2": joblib.load("modelos/dbscan2.joblib"),
+    "hierarchical1": joblib.load("modelos/hierarchical1.joblib"),
+    "hierarchical2": joblib.load("modelos/hierarchical2.joblib")
 }
 scaler = RobustScaler()  # Ajuste para o scaler usado durante o treinamento
 
