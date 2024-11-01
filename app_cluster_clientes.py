@@ -6,7 +6,7 @@ from sklearn.preprocessing import RobustScaler
 # Carregar os modelos de clusterização
 modelos = {
     "KMeans1": joblib.load("modelos/kmeans1.joblib"),
-    "KMeans2": joblib.load("modelos/kmeans1.joblib"),
+    "KMeans2": joblib.load("modelos/kmeans2.joblib"),
     "DBSCAN1": joblib.load("modelos/dbscan1.joblib"),
     "DBSCAN2": joblib.load("modelos/dbscan2.joblib"),
     "Hierarchical1": joblib.load("modelos/hierarchical1.joblib"),
